@@ -18,4 +18,5 @@ hobbies = ["knit","listening to music", "drawing","paint with watercolor"]
 # Step 6
 favorite_things = {"Movie": "The perks of being a wallflower", "Food": "Lasagna","Hobby": "Listening to music", "Color": "Green", "Number": 7, "Animal": "Raccoon"}
 
-# optional
+# optional (Tuple)
+favorites_fruits = ("Mango", "Kiwi", "Tangerine")
