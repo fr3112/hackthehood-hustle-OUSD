@@ -34,7 +34,6 @@ def play_guessing_game(): #It is  the main  function of the game that implements
             print("You are too high")
 
         print(f"Your # of tries: {tries}") #This print the number of tries
-        print("If you want to leave put \'E\'")
     return user_input
     
     
