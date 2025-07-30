@@ -16,10 +16,11 @@ class Hero:
     def battle(self, opponent):
         '''Fight another hero and randomly declare a winner'''
         self.opponent = opponent
-        print(f"{self.name} battles {opponent}!")
+        
+        print(f"{self.name} battles {opponent.name}!")
 
         #randomly choose a winner
-        winner = random.choice([self.name, opponent])
+        winner = random.choice([self.name, opponent.name])
 
         print(f"{winner} wins the battle")
 
@@ -59,7 +60,7 @@ if __name__ == "__main__":
     current_health2 = my_hero2.current_health
     print(current_health2)
 
-    my_hero.battle(name2)
+    my_hero.battle(my_hero2)
 
     fireball =  Ability("Fireball", 50)
     lightning = Ability("Ligtning", 55)
